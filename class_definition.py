@@ -16,3 +16,10 @@ def stddev(self):
   n = len(self.data)
   σ_x= math.sqrt( sum( (x-μ_x)**2 for x in self.data )/n 
   return σ_x
+    
+def stdscore(self):
+  μ_x= self.mean() 
+  σ_x= self.stddev()
+  return [ (x-μ_x)/σ_x for x in self.data ]
+
+                 

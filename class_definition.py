@@ -1,4 +1,5 @@
   from ch_5_ex_1 import get_deaths, get_cheese
+
 deaths = AnnualStats( get_deaths() )
 cheese = AnnualStats( get_cheese() )
 

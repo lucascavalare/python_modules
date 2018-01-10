@@ -1,4 +1,4 @@
-rom collections import Counter
+from collections import Counter
 class AnnualStats:
     def __init__(self, year_measure):
         self.year_measure = list(year_measure)

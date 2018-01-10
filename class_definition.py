@@ -10,3 +10,9 @@ print("Median Cheese Consumption", cheese.median())
 print("Mean Cheese Consumption", cheese.mean())
 
 print(deaths )
+
+def stddev(self):
+  μ_x = self.mean()
+  n = len(self.data)
+  σ_x= math.sqrt( sum( (x-μ_x)**2 for x in self.data )/n 
+  return σ_x

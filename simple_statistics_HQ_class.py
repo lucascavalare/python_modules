@@ -20,5 +20,5 @@ class AnnualStats:
             pair= sorted(self.data)[mid-1:mid+1]
             return sum(pair)/2
     def mode(self):
-        value, count = self.counter.most_common1)[0]
+        value, count = self.counter.most_common1[0]
         return value

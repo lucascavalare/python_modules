@@ -21,5 +21,7 @@ def stdscore(self):
   μ_x= self.mean() 
   σ_x= self.stddev()
   return [ (x-μ_x)/σ_x for x in self.data ]
-
+        
+"""Print how this function works."""
+print( cheese.stdscore() )
                  

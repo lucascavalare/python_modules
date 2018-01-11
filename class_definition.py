@@ -23,5 +23,8 @@ def stdscore(self):
   return [ (x-μ_x)/σ_x for x in self.data ]
         
 """Print how this function works."""
-print( cheese.stdscore() )
+print( cheese.stdscore2() )
+
+print(cheese.stdscore())
+                 
                  

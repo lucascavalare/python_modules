@@ -5,3 +5,7 @@ def mean(values):
     5.0
     """
     return sum(values)/len(values)
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()

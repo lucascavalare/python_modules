@@ -4,4 +4,4 @@ def mean(values):
     >>> mean( [2, 4, 4, 4, 5, 5, 7, 9])
     5.0
     """
-    return sum(values)/len(values
+    return sum(values)/len(values)

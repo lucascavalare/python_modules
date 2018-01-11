@@ -27,4 +27,4 @@ print( cheese.stdscore2() )
 
 print(cheese.stdscore())
                  
-                 
+print(list(cheese.stdscore())                 
